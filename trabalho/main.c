@@ -53,7 +53,7 @@ int main() {
         token = strtok(NULL, ",");
         token = strtok(NULL, ",");
 
-        // Ler as notas
+
         while ((token = strtok(NULL, ",")) != NULL) {
             aluno.notas[aluno.num_notas++] = atof(token);
         }
